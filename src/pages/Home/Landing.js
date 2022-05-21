@@ -8,11 +8,11 @@ const Landing = () => {
                 <div class="hero-content flex-col lg:flex-row">
 
                     <div>
-                        <h1 class="text-5xl font-bold">Professional Cleaning Service</h1>
-                        <p class="py-6 max-w-xl">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="text-5xl font-bold">Professional Cleaning Service</h1>
+                        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" class="py-6 max-w-xl">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1500" class="btn btn-primary">Get Started</button>
                     </div>
-                    <div className='h-[60vh] shrink-0'>
+                    <div data-aos-duration="1000" data-aos-delay="600" data-aos="fade-left" className='h-[60vh] shrink-0'>
                         <img src={BucketGirl} class="h-full" alt='...' />
                     </div>
                 </div>
